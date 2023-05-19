@@ -4,6 +4,9 @@ import {MatCardModule} from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
 @NgModule({
   declarations: [],
   imports: [
@@ -11,13 +14,19 @@ import {MatButtonModule} from '@angular/material/button';
     MatCardModule,
     MatDividerModule,
     MatProgressBarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule
   ],
   exports:[
     MatCardModule,
     MatDividerModule,
     MatProgressBarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule
   ]
 })
 export class MaterialModule { }
